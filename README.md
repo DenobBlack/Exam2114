@@ -31,7 +31,7 @@ git clone https://github.com/khomutov-m/FinalProject.git
 3. Откройте проект в Visual Studio.
 4. Запустите проект, нажав кнопку "Start" или F5.
 
-!image.png
+![image.png]
 
 ## Авторы
 
