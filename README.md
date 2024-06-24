@@ -25,7 +25,7 @@
 Пошаговая серия примеров для установки проекта:
 1. Скопируйте репозиторий с помощью команды:
 ```
-git clone https://github.com/khomutov-m/FinalProject.git
+git clone https://github.com/DenobBlack/Exam2114.git
 ```
 3. Настройка базы данных
     - Убедитесь, что у вас установлен SQL Server Management Studio.
