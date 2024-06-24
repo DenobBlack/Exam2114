@@ -17,14 +17,14 @@
 
 ### Необходимые условия
 
-- Visual Studio (рекомендуемая версия: Visual Studio 2022)- .NET Framework 8.0
+- Visual Studio (рекомендуемая версия: Visual Studio 2022) - .NET Framework 8.0
 - SQL Server Management Studio 20
 
 ### Установка
 
 Пошаговая серия примеров для установки проекта:
 1. Склонируйте репозиторий с помощью команды:
-git clone https://github.com/khomutov-m/FinalProject.git
+git clone https://github.com/DenobBlack/Exam2114.git
 2. Настройка базы данных
 1. Убедитесь, что у вас установлен SQL Server Management Studio.
 2. Откройте SSMS и подключитесь к вашему серверу баз данных.3. Создайте новую базу данных и запустите SQL скрипт(Exam2114.bacpac или Скрипт БД.txt) проекта для создания таблиц и заполнения начальными данными.
