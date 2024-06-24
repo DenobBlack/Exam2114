@@ -31,8 +31,8 @@ git clone https://github.com/DenobBlack/Exam2114.git
   1. Убедитесь, что у вас установлен SQL Server Management Studio.
   2. Откройте SSMS и подключитесь к вашему серверу баз данных
   3. Создайте новую базу данных и запустите SQL скрипт(Exam2114.bacpac или Скрипт БД.txt) проекта для создания таблиц и заполнения начальными данными.
-  4. Откройте проект в Visual Studio.
-  5. Запустите проект, нажав кнопку "Start" или F5.
+3. __Откройте проект в Visual Studio.__
+4. __Запустите проект, нажав кнопку "Start" или F5.__
 
 ![Picture](https://github.com/DenobBlack/Exam2114/blob/635be778bec5b97fbba8c3cc3b880424939c1537/image.png)
 
