@@ -31,7 +31,7 @@ git clone https://github.com/khomutov-m/FinalProject.git
 3. Откройте проект в Visual Studio.
 4. Запустите проект, нажав кнопку "Start" или F5.
 
-![image.png]
+![Picture](https://github.com/DenobBlack/Exam2114/blob/635be778bec5b97fbba8c3cc3b880424939c1537/image.png)
 
 ## Авторы
 
