@@ -78,6 +78,60 @@ return 0;
 30
 31
 
+.data
+strl db "Hello",@
+str2 db "Hello", ,
+sgEqual db "Строки равны",
+msgNotEqual db "Строки не равны", 0
+Hi dd ?
+EXTERN MessageBoxA@16: NEAR
+public CompareStrings
+code
+CompareStrings PROC
+lea eax, strl
+lea ebx, str2
+compare_loop:
+mov al, [eax]
+cmp al, bl
+mov bl, [ebx]
+3
+jne strings_not_equal
+cmp al,
+je strings_are_equal
+25
+inc eax
+26
+inc ebx
+jmp compare_loop
+27
+28
+strings_are_equal:
+29
+push 0 push 0 push offset msgEqual push Hid call MessageBoxA@16 ; вызываем системную процедуру для отображения окна сообщения
+30
+31
+32
+33
+34
+35
+ret
+strings_not_equal:
+push e push push offset msgNotEqual push Hid call MessageBoxA@16 ; вызываем систенную процедуру для отображения окна сообщения
+36
+37
+38
+39
+41
+42
+ret CompareStrings ENDP
+43
+44
+45
+46
+END
+
+
+
 # Ароматный мир
 
  Приложение разработано для компании - ООО «Ароматный мир» - магазин по продаже парфюмерии и косметики. 
