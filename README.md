@@ -1,3 +1,83 @@
+.686
+.model flat,c
+.stack 4896
+data
+public SumProcedure
+code
+SumProcedure PROC
+enter 0,0
+mov eax, [ebp + 8]
+mov ebx, [ebp + 12]
+add eax, ebx
+leave
+ret 8
+SumProcedure ENDP
+END
+
+.686
+.model flat, c
+.stack 4896
+.data
+resultMessage db "2*x: ",
+public Power0fTwo
+code
+PowerOfTwo PROC
+mov eax, 1
+cmр есх, 0
+je done
+calculate:
+shl eax, 1
+loop calculate
+15
+16
+done:
+17
+ret
+18
+Power0fTwo ENDP
+19
+20
+END
+
+#include <iostream>
+#include <Windows.h>
+extern "C" void SumProcedure();
+extern "C" void Power0fTwo(int x);
+extern "C" void CompareStrings();
+int main()
+i
+int su Result;
+＿asm
+push 3
+push 5
+call SumProcedure
+mov sw Result, eax
+std::cout << "Summa: "< sumResult << std::endl;
+6
+17
+18
+int powerResult;
+int exponent = 4;
+19
+20
+＿asm
+mov ecx, exponent
+21
+call Power0fTwo mov powerResult, eax std::cout << "2*" << exponent << ": " << powerResult << std::endl;
+22
+23
+24
+25
+call CompareStrings
+26
+asu i
+27
+28
+return 0;
+29
+30
+31
+
 # Ароматный мир
 
  Приложение разработано для компании - ООО «Ароматный мир» - магазин по продаже парфюмерии и косметики. 
